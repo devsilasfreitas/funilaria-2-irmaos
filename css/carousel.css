@@ -1,0 +1,11 @@
+.carousel > * {
+    position: absolute;
+}
+
+.carousel {
+    min-width: 80vw;
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    transition: 2s background-image;
+}
