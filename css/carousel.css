@@ -8,4 +8,37 @@
     background-position: center;
     background-size: cover;
     transition: 2s background-image;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.carousel:hover {
+    #next {
+        display: block;
+        transition: 2s display;
+    }
+    #prev {
+        display: block;
+        transition: 2s display;
+    }
+}
+
+#next {
+    right: 5px;
+    z-index: 2;
+    display: none;
+}
+
+#prev {
+    left: 5px;
+    z-index: 2;
+    display: none;
+}
+
+.carousel > div {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
 }

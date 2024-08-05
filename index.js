@@ -5,16 +5,46 @@ const images = [
 ];
 
 const carousel = document.getElementsByClassName("carousel")[0];
-let currentImage = 0;
+const next = document.getElementById("next");
+const prev = document.getElementById("prev");
 
+let currentImage = 0;
 
 carousel.style.setProperty("background-image", `url("${images[currentImage]}")`);
 currentImage++;
 
-setInterval(() => {
+let loop = setInterval(() => {
+    nextSlide();
+}, 5 * 1000);
+
+function nextSlide () {
     carousel.style.setProperty("background-image", `url("${images[currentImage]}")`);
     currentImage++;
     if (currentImage === images.length) {
         currentImage = 0;
     }
-}, 5 * 1000);
+}
+
+function prevSlide () {
+    carousel.style.setProperty("background-image", `url("${images[currentImage]}")`);
+    currentImage--;
+    if (currentImage < 0) {
+        currentImage = images.length - 1;
+    }
+}
+
+next.addEventListener("click", () => {
+    nextSlide();
+    clearInterval(loop);
+    loop = setInterval(() => {
+        nextSlide()
+    }, 5 * 1000);
+});
+
+prev.addEventListener("click", () => {
+    prevSlide();
+    clearInterval(loop);
+    loop = setInterval(() => {
+        nextSlide();
+    }, 5 * 1000);
+});
