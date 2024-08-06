@@ -22,15 +22,16 @@
     margin-right: auto;
     border-radius: 5px;
     border: 2px solid var(--primary-color);
-    padding: 5px 10px;
+    padding: 10px 15px;
     background-color: transparent;
     color: white;
+    width: 100%;
 }
 
 #contato input:focus, #contato textarea:focus {
     outline: none;
     border: 2px solid var(--primary-color);
-    color: white
+    color: white;
 }
 
 #contato div {
@@ -46,4 +47,14 @@
 #contato form h1 {
     text-align: center;
     margin-bottom: 10px;
+}
+
+#contato form p {
+    width: 100px
+}
+
+#contato form button {
+    margin-left: auto;
+    margin-right: 0px;
+    font-weight: bold;
 }
