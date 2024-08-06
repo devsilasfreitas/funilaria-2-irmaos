@@ -1,0 +1,49 @@
+#contato {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    padding: 20px;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contato label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#contato input, #contato textarea {
+    margin-right: auto;
+    border-radius: 5px;
+    border: 2px solid var(--primary-color);
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+}
+
+#contato input:focus, #contato textarea:focus {
+    outline: none;
+    border: 2px solid var(--primary-color);
+    color: white
+}
+
+#contato div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+}
+
+#contato form h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}

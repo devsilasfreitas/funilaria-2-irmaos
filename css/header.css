@@ -6,11 +6,21 @@ header {
     align-items: center;
     gap: 20px;
     padding: 10px 20px;
+    height: 30vh;
 }
 
-a {
+header a {
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px 10px;
+    transition: 0.5s;
+}
+
+header a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(2);
 }
 
 ul {
@@ -23,5 +33,5 @@ li {
 }
 
 header > img {
-    width: 200px;
+    width: 160px;
 }

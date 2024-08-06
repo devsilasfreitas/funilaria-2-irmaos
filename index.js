@@ -1,7 +1,9 @@
 const images = [
     "https://maintenance-minio.kdminhaoficina.com.br/blog/2023/07/o-que-e-uma-funilaria-e-pintura.jpg",
     "https://onmotor.com.br/wp-content/uploads/2023/04/2023-05-11-organizar-uma-oficina-de-funilaria-1280x720.jpg",
-    "https://onmotor.com.br/wp-content/uploads/2022/12/2023-01-funilaria-e-pintura-automotiva-1280x720.jpg"
+    "https://onmotor.com.br/wp-content/uploads/2022/12/2023-01-funilaria-e-pintura-automotiva-1280x720.jpg",
+    "https://mecanica.papacentroautomotivo.com.br/imagens/valor-de-funilaria-e-pintura-automotiva.jpg",
+    "https://www.consultasprime.com/wp-content/uploads/2023/10/servicos-de-lanternagem-ou-funilaria-e-pintura-de-veiculos-automotores.jpg"
 ];
 
 const carousel = document.getElementsByClassName("carousel")[0];

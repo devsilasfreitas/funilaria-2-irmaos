@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/beneficios.css">
+    <link rel="stylesheet" href="css/servicos.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="shortcut icon" href="/assets/imgs/logofuni.png" type="image/png">
 </head>
 <body>
     <header>
         <img src="/assets/imgs/Logotipo_azul_e_branco_minimalista_para_estética_automotiva-removebg-preview.png" alt="">
-        <h3>Restaure a beleza do seu carro com a nossa Funilaria de Qualidade!</h3>
         <ul>
             <li><a href="#inicial">Home</a></li>
             <li><a href="#beneficios">Benefícios</a></li>
@@ -24,22 +27,68 @@
         <section class="carousel" id="inicial">
             <img src="/assets/imgs/st-arrow-prev-64.png" alt="" class="clickable" id="prev">
             <div>
-                
+                <h1 class="title">Solicite Agora o seu Orçamento</h1>
+                <h1>Seu carro novo de novo!</h1>
+                <a href="#contato" class="">
+                    <button class="button">
+                        Solicitar Orçamento
+                    </button>
+                </a>
             </div>
             <img src="/assets/imgs/st-arrow-next-64.png" class="clickable" alt="" id="next">
         </section>
+        <h1 class="title-section">Nossos Benefícios</h1>
         <section id="beneficios">
-            <!-- Beneficios -->
+            <div id="beneficios-1" class="item">
+                <p>Atendimento rápido e eficiente</p>
+            </div>
+            <div id="beneficios-2" class="item">
+                <p>Equipe altamente qualificada</p>
+            </div>
+            <div id="beneficios-3" class="item">
+                <p>Qualidade Garantida!</p>
+            </div>
+            <div id="beneficios-4" class="item">
+                <p>Materiais de alta qualidade</p>
+            </div>
         </section>
+        <h1 class="title-section">Nossos Serviços</h1>
         <section id="nossos-servicos">
-            <!-- Serviços -->
+            <div id="servicos-1" class="item">
+                <img src="/assets/imgs/repair.png" alt="">
+                <p>Reparo de amassados e arranhões</p>
+            </div>
+            <div id="servicos-2" class="item">
+                <img src="/assets/imgs/paint.png" alt="">
+                <p>Repintura completa e parcial</p>
+            </div>
         </section>
+        <h1 class="title-section">Contato</h1>
         <section id="contato">
-            <!-- Contato -->
+            <form action="" id="form">
+                <h1>Nos envie uma mensagem!</h1>
+                <label for="nome">
+                    Nome: 
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                </label>
+                <label for="Email">
+                    Email: 
+                    <input type="text" name="email" id="email" placeholder="Email">
+                </label>
+                <label for="message">
+                    Mensagem: 
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                </label>
+                <button class="button" type="submit">Enviar</button>
+            </form>
+            <div>
+                <h1>Funilaria 2 irmãos</h1>
+                <p>Whatsapp: (11) 99999-9999</p>
+                <p>Email: contato@funilaria2irmaos.com</p>
+                <p>Telefone: (11) 99999-9999</p>
+                <p>Endereço: Rua dos Irmãos, 9999</p>
+            </div>
         </section>
     </main>
-    <footer>
-
-    </footer>
 </body>
 </html>

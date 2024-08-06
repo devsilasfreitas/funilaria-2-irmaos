@@ -1,0 +1,30 @@
+#nossos-servicos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#nossos-servicos .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    padding: 250px;
+}
+
+#nossos-servicos .item img {
+    width: 200px;
+}
+
+#servicos-1 {
+    background-color: #da7b10;
+}
+
+#servicos-2 {
+    background-color: rgb(36, 36, 36);
+}
