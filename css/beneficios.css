@@ -32,3 +32,13 @@
     text-align: center;
     font-weight: bold;
 }
+
+@media screen and (max-width: 508px) {
+    #beneficios {
+        grid-template-columns: 100%;
+    }
+
+    #beneficios .item {
+        height: 40vh;
+    }
+}

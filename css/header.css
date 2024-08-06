@@ -35,3 +35,13 @@ li {
 header > img {
     width: 160px;
 }
+
+@media screen and (max-width: 500px) {
+    header ul {
+        gap: 10px;
+    }
+
+    header {
+        height: 25dvh;
+    }
+}

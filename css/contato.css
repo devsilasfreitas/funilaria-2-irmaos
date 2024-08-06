@@ -50,11 +50,23 @@
 }
 
 #contato form p {
-    width: 100px
+    width: 100px;
 }
 
 #contato form button {
     margin-left: auto;
     margin-right: 0px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+    #contato {
+        grid-template-columns: 100%;
+        gap: 50px;
+    }
+
+    #contato form label p, #contato form label p {
+        width: 120px;
+    }
+    
 }

@@ -56,3 +56,13 @@
 .carousel .title {
     font-size: 40px;
 }
+
+@media screen and (max-width: 500px) {
+    .carousel > div {
+        height: 75dvh;
+    }
+
+    .carousel {
+        height: 75dvh;
+    }
+}

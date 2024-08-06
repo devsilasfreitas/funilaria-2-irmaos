@@ -28,3 +28,14 @@
 #servicos-2 {
     background-color: rgb(36, 36, 36);
 }
+
+@media screen and (max-width: 500px) {
+    #nossos-servicos {
+        grid-template-columns: 100%;
+    }
+
+    #nossos-servicos .item {
+        padding: 30vw;
+        height: 50vh
+    }
+}
